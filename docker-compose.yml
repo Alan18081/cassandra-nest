@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  db:
+    container_name: cassandra_nest_db
+    hostname: cassandra_nest_db
+    image: cassandra
+    ports:
+      - '9042:9042'
+    expose:
+      - '9042'
+#    environment:
+#      MONGO_INITDB_ROOT_USERNAME: root
+#      MONGO_INITDB_ROOT_PASSWORD: root
+  app:
+    container_name: cassandra_nest_app
+    hostname: cassandra_nest_app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file: "./local.env"
+    volumes:
+      - ./src:/var/www/cassandra_nest/src
+    ports:
+      - "4000:4000"
+    depends_on:
+      - db
+
+volumes:
+  cassandra_nest:
