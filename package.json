@@ -20,6 +20,7 @@
     "@iaminfinity/express-cassandra": "^5.1.0",
     "@nestjs/common": "^5.0.0",
     "@nestjs/core": "^5.0.0",
+    "@nestjs/swagger": "^3.0.2",
     "bcrypt": "^3.0.6",
     "class-transformer": "^0.2.0",
     "class-validator": "^0.9.1",
@@ -27,6 +28,7 @@
     "fastify-formbody": "^2.0.0",
     "reflect-metadata": "^0.1.12",
     "rxjs": "^6.0.0",
+    "swagger-ui-express": "^4.0.2",
     "typescript": "^2.6.2"
   },
   "devDependencies": {
