@@ -5,8 +5,9 @@ import {UsersService} from './users.service';
 import {PaginationDto} from '../core/dto/pagination.dto';
 import {UpdateUserDto} from './dto/update-user.dto';
 import {PaginatedResult} from '../core/interfaces/paginated-result';
-import {ApiOperation, ApiResponse} from '@nestjs/swagger';
+import {ApiOperation, ApiResponse, ApiUseTags} from '@nestjs/swagger';
 
+@ApiUseTags('users')
 @Controller('/users')
 @UseInterceptors(ClassSerializerInterceptor)
 export class UsersController {

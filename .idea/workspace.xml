@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3da008c1-cbf6-4d2f-af9b-dc5ca9574e38" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/posts/dto/create-post.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/posts/dto/create-post.dto.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/posts/dto/find-many-posts.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/posts/dto/find-many-posts.dto.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/posts/dto/remove-post.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/posts/dto/remove-post.dto.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/posts/dto/update-post.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/posts/dto/update-post.dto.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/users/dto/create-user.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/dto/create-user.dto.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/users/dto/update-user.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/dto/update-user.dto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users/users.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/users.controller.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,18 +16,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="posts.controller.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/posts/posts.controller.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="618">
-              <caret line="50" selection-start-line="50" selection-end-line="52" selection-end-column="101" />
-              <folding>
-                <element signature="e#0#88#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="post.entity.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/posts/post.entity.ts">
           <provider selected="true" editor-type-id="text-editor">
@@ -126,11 +109,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="update-user.dto.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="update-user.dto.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/users/dto/update-user.dto.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="37" selection-start-column="37" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.controller.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/users/users.controller.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -171,7 +163,6 @@
         <option value="$PROJECT_DIR$/src/components/users/tests/users.service.spec.ts" />
         <option value="$PROJECT_DIR$/src/components/users/tests/users.repository.spec.ts" />
         <option value="$PROJECT_DIR$/src/components/posts/posts.controller.ts" />
-        <option value="$PROJECT_DIR$/src/components/users/users.controller.ts" />
         <option value="$PROJECT_DIR$/src/components/posts/posts.service.ts" />
         <option value="$PROJECT_DIR$/src/components/core/base.repository.ts" />
         <option value="$PROJECT_DIR$/src/components/users/user.entity.ts" />
@@ -183,6 +174,7 @@
         <option value="$PROJECT_DIR$/src/components/posts/dto/update-post.dto.ts" />
         <option value="$PROJECT_DIR$/src/components/users/dto/create-user.dto.ts" />
         <option value="$PROJECT_DIR$/src/components/users/dto/update-user.dto.ts" />
+        <option value="$PROJECT_DIR$/src/components/users/users.controller.ts" />
       </list>
     </option>
   </component>
@@ -241,14 +233,6 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="users" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="cassandra-nest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cassandra-nest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -303,12 +287,12 @@
       <updated>1555414769398</updated>
       <workItem from="1555414770639" duration="12829000" />
       <workItem from="1555439968608" duration="2955000" />
-      <workItem from="1555529589588" duration="5242000" />
+      <workItem from="1555529589588" duration="5318000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32898000" />
+    <option name="totallyTimeSpent" value="32974000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -320,7 +304,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.56289977" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.56289977" />
       <window_info anchor="bottom" id="TypeScript" order="7" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25538972" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -567,13 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/users/users.controller.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/users/users.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -709,6 +686,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="37" selection-start-column="37" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/users/users.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
         </state>
       </provider>
     </entry>
