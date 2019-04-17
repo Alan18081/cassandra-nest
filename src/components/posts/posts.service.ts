@@ -7,6 +7,7 @@ import {UsersService} from '../users/users.service';
 import {PaginationDto} from '../core/dto/pagination.dto';
 import {PaginatedResult} from '../core/interfaces/paginated-result';
 import {FindManyPostsDto} from './dto/find-many-posts.dto';
+import {UpdatePostDto} from './dto/update-post.dto';
 
 @Injectable()
 export class PostsService {
@@ -42,6 +43,15 @@ export class PostsService {
             lastName: user.lastName,
         };
         return this.postsRepository.save(post).toPromise();
+    }
+
+    async updateById(id: string, dto: UpdatePostDto): Promise<PostEntity | undefined> {
+        const post = await this.postsRepository.findById(id);
+        if (!post) {
+            throw new NotFoundException('Post with provided id is not found');
+        }
+
+        return this.postsRepository.updateById(id, dto);
     }
 
     async removeById(id: string, authorId: string): Promise<void> {

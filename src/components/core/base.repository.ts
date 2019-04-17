@@ -1,4 +1,4 @@
-import {Repository} from '@iaminfinity/express-cassandra';
+import {Repository, uuid} from '@iaminfinity/express-cassandra';
 import {PaginatedResult} from './interfaces/paginated-result';
 import {PaginationDto} from './dto/pagination.dto';
 
@@ -11,7 +11,7 @@ export class BaseRepository<T> extends Repository<T> {
 
         return {
             data,
-            lastCreatedAt: data[data.length - 1].createdAt,
+            lastCreatedAt: data.length > 0 ? data[data.length - 1].createdAt : null,
             totalCount,
             totalPages: Math.round(totalCount / +dto.limit),
             itemsPerPage: +dto.limit,
@@ -19,7 +19,7 @@ export class BaseRepository<T> extends Repository<T> {
     }
 
     findById(id: string): Promise<T | undefined> {
-        return this.findOne({ id }).toPromise();
+        return this.findOne({ id: uuid(id) }).toPromise();
     }
 
     async updateById(id: string, dto: Partial<T>): Promise<T | undefined> {

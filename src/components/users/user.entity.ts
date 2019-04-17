@@ -1,4 +1,4 @@
-import {Column, Entity} from '@iaminfinity/express-cassandra';
+import {Column, CreateDateColumn, Entity, UpdateDateColumn} from '@iaminfinity/express-cassandra';
 import {Exclude} from 'class-transformer';
 import {BaseEntity} from '../core/base.entity';
 
@@ -19,6 +19,12 @@ export class User extends BaseEntity {
     @Exclude()
     @Column({ type: 'varchar' })
     password: string;
+
+    @CreateDateColumn()
+    createdAt: Date;
+
+    @UpdateDateColumn()
+    updatedAt: Date;
 
     constructor(partial: Partial<User>) {
         super();
