@@ -3,6 +3,7 @@ import {UsersModule} from './components/users/users.module';
 import {CoreModule} from './components/core/core.module';
 import { ExpressCassandraModule } from '@iaminfinity/express-cassandra';
 import {ConfigService} from './components/core/services/config.service';
+import {PostsModule} from './components/posts/posts.module';
 
 @Module({
   imports: [
@@ -24,6 +25,7 @@ import {ConfigService} from './components/core/services/config.service';
           inject: [ConfigService],
       }),
       UsersModule,
+      PostsModule,
   ],
   controllers: [],
   providers: [],

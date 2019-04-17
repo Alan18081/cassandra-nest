@@ -1,35 +1,27 @@
-import {Column, CreateDateColumn, Entity, GeneratedUUidColumn, UpdateDateColumn} from '@iaminfinity/express-cassandra';
-import {Exclude, Transform} from 'class-transformer';
+import {Column, Entity} from '@iaminfinity/express-cassandra';
+import {Exclude} from 'class-transformer';
+import {BaseEntity} from '../core/base.entity';
 
 @Entity({
     key: ['id'],
 })
-export class User {
+export class User extends BaseEntity {
 
-    @Transform(id => id.toString())
-    @GeneratedUUidColumn()
-    id: string;
-
-    @Column({ type: 'text' })
+    @Column({ type: 'varchar' })
     firstName: string;
 
-    @Column({ type: 'text' })
+    @Column({ type: 'varchar' })
     lastName: string;
 
-    @Column({ type: 'text' })
+    @Column({ type: 'varchar' })
     email: string;
 
     @Exclude()
-    @Column({ type: 'text' })
+    @Column({ type: 'varchar' })
     password: string;
 
-    @CreateDateColumn()
-    createdAt: Date;
-
-    @UpdateDateColumn()
-    updatedAt: Date;
-
     constructor(partial: Partial<User>) {
+        super();
         Object.assign(this, partial);
     }
 

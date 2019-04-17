@@ -54,12 +54,11 @@
     lodash "4.17.11"
     path-to-regexp "3.0.0"
 
-"@nestjs/testing@^5.0.0":
-  version "5.7.4"
-  resolved "https://registry.yarnpkg.com/@nestjs/testing/-/testing-5.7.4.tgz#418e993416bd0c1b27b3adf14cc7d59f4ff2a622"
-  integrity sha512-3lIsTmkdkFJODxiMFtVmAIxCmXMnVcUU9fhHmzO20S3ERZ+hAFZDXuB3vTwFEiBzxva0fKZw6OnnqTlDyGNXaw==
+"@nestjs/testing@^6.1.1":
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/@nestjs/testing/-/testing-6.1.1.tgz#cc871867f9bd053069467a5a2f1b429945413313"
+  integrity sha512-EQLRES20n8zWkFRXgwFKjCE0s/WsHvqv3v22umqq2XHiep7WiJub0hNG/FcC00WltXPDPAaEDu0XDPr56UWZhQ==
   dependencies:
-    deprecate "1.0.0"
     optional "0.1.4"
 
 "@nodelib/fs.stat@^1.1.2":

@@ -15,5 +15,6 @@ import {CoreModule} from '../core/core.module';
         UsersController,
     ],
     providers: [UsersService],
+    exports: [UsersService],
 })
 export class UsersModule {}

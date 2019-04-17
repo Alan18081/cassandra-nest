@@ -18,7 +18,7 @@ export class UsersService {
     ) {}
 
     findMany(query: PaginationDto): Promise<PaginatedResult<User>> {
-        return this.usersRepository.findManyWithPagination(query);
+        return this.usersRepository.findManyWithPagination({}, query);
     }
 
     async findById(id: string): Promise<User | undefined> {
