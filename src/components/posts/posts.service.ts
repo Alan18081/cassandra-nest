@@ -19,7 +19,13 @@ export class PostsService {
     ) {}
 
     findMany(dto: FindManyPostsDto): Promise<PaginatedResult<PostEntity>> {
-        return this.postsRepository.findManyWithPagination({ authorId: dto.authorId }, { createdAt: dto.createdAt, limit: dto.limit });
+        if (dto.authorId) {
+            return this.postsRepository.findManyByAuthor(dto.authorId, { createdAt: dto.createdAt, limit: dto.limit });
+        }
+        return this.postsRepository.findManyWithPagination(
+            { },
+            { createdAt: dto.createdAt, limit: dto.limit },
+        );
     }
 
     async findById(id: string): Promise<PostEntity | undefined> {
@@ -54,12 +60,7 @@ export class PostsService {
         return this.postsRepository.updateById(id, dto);
     }
 
-    async removeById(id: string, authorId: string): Promise<void> {
-        const user = await this.usersService.findById(authorId);
-        if (!user) {
-            throw new NotFoundException('User with provided id is not found');
-        }
-
+    async removeById(id: string): Promise<void> {
         const post = await this.postsRepository.findById(id);
         if (!post) {
             throw new NotFoundException('Post with provided id is not found');

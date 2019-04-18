@@ -1,4 +1,4 @@
-import {Body, Controller, Delete, Get, HttpStatus, Param, Patch, Post, Query} from '@nestjs/common';
+import {Body, Controller, Delete, Get, HttpCode, HttpStatus, Param, Patch, Post, Query} from '@nestjs/common';
 import {PostsService} from './posts.service';
 import {CreatePostDto} from './dto/create-post.dto';
 import {PostEntity} from './post.entity';
@@ -48,11 +48,12 @@ export class PostsController {
     }
 
     @Delete(':id')
+    @HttpCode(HttpStatus.ACCEPTED)
     @ApiOperation({ title: 'Delete post' })
     @ApiResponse({ status: HttpStatus.ACCEPTED, description: 'Post is deleted' })
     @ApiResponse({ status: HttpStatus.NOT_FOUND, description: 'Post with provided id is not found' })
-    async removeById(@Param('id') id: string, @Query() dto: RemovePostDto): Promise<void> {
-        await this.postsService.removeById(id, dto.authorId);
+    async removeById(@Param('id') id: string): Promise<void> {
+        await this.postsService.removeById(id);
     }
 
 }

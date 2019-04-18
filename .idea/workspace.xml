@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/components/posts/posts.service.ts" line="24" mnemonic="9" />
+    <bookmark url="file://$PROJECT_DIR$/src/components/posts/posts.service.ts" line="30" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3da008c1-cbf6-4d2f-af9b-dc5ca9574e38" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/core/base.repository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/core/base.repository.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/posts/dto/find-many-posts.dto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/posts/dto/find-many-posts.dto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/posts/posts.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/posts/posts.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/posts/posts.repository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/posts/posts.repository.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/posts/posts.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/posts/posts.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users/tests/mocks.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users/tests/users.repository.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users/tests/users.service.spec.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/users/users.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/users.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users/users.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/users.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users/users.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/users.service.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,46 +27,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="users.service.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/users/users.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="45" column="39" lean-forward="true" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="posts.controller.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/posts/posts.controller.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="27" column="47" lean-forward="true" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="post.entity.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/posts/post.entity.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="31" column="56" lean-forward="true" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
+            <state relative-caret-position="-140">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="e#0#68#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="posts.service.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/posts/posts.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.entity.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/core/base.entity.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="9" selection-start-line="9" selection-end-line="13" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#103#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create-post.dto.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/posts/dto/create-post.dto.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,8 +60,8 @@
       <file leaf-file-name="find-many-posts.dto.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/posts/dto/find-many-posts.dto.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="224">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -73,56 +69,68 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="remove-post.dto.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/posts/dto/remove-post.dto.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="update-post.dto.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/posts/dto/update-post.dto.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#53#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create-user.dto.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/users/dto/create-user.dto.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#61#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="update-user.dto.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/users/dto/update-user.dto.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="37" selection-start-column="37" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="users.controller.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/users/users.controller.ts">
+      <file leaf-file-name="posts.service.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/posts/posts.service.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="56">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="posts.repository.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/posts/posts.repository.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+              <folding>
+                <element signature="e#0#64#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="posts.module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/posts/posts.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.module.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/users/users.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.repository.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/core/base.repository.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="756">
+              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#64#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.controller.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/users/users.controller.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="549">
+              <caret line="63" selection-start-line="63" selection-end-line="63" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -152,29 +160,29 @@
         <option value="$PROJECT_DIR$/src/components/users-with-posts/users-with-posts.repository.ts" />
         <option value="$PROJECT_DIR$/src/components/users-with-posts/user-with-posts.entity.ts" />
         <option value="$PROJECT_DIR$/src/app.module.ts" />
-        <option value="$PROJECT_DIR$/src/components/posts/posts.module.ts" />
-        <option value="$PROJECT_DIR$/src/components/users/users.module.ts" />
         <option value="$PROJECT_DIR$/src/components/users/users.repository.ts" />
-        <option value="$PROJECT_DIR$/src/components/users/users.service.ts" />
         <option value="$PROJECT_DIR$/src/components/posts/dto/find-many-posts-by-author.dto.ts" />
-        <option value="$PROJECT_DIR$/src/components/posts/posts.repository.ts" />
         <option value="$PROJECT_DIR$/test.env" />
         <option value="$PROJECT_DIR$/src/components/users/tests/mocks.ts" />
         <option value="$PROJECT_DIR$/src/components/users/tests/users.service.spec.ts" />
         <option value="$PROJECT_DIR$/src/components/users/tests/users.repository.spec.ts" />
-        <option value="$PROJECT_DIR$/src/components/posts/posts.controller.ts" />
-        <option value="$PROJECT_DIR$/src/components/posts/posts.service.ts" />
-        <option value="$PROJECT_DIR$/src/components/core/base.repository.ts" />
         <option value="$PROJECT_DIR$/src/components/users/user.entity.ts" />
         <option value="$PROJECT_DIR$/src/components/posts/post.entity.ts" />
         <option value="$PROJECT_DIR$/src/components/core/base.entity.ts" />
         <option value="$PROJECT_DIR$/src/components/posts/dto/create-post.dto.ts" />
-        <option value="$PROJECT_DIR$/src/components/posts/dto/find-many-posts.dto.ts" />
         <option value="$PROJECT_DIR$/src/components/posts/dto/remove-post.dto.ts" />
         <option value="$PROJECT_DIR$/src/components/posts/dto/update-post.dto.ts" />
         <option value="$PROJECT_DIR$/src/components/users/dto/create-user.dto.ts" />
         <option value="$PROJECT_DIR$/src/components/users/dto/update-user.dto.ts" />
+        <option value="$PROJECT_DIR$/src/components/users/users.service.ts" />
+        <option value="$PROJECT_DIR$/src/components/core/base.repository.ts" />
         <option value="$PROJECT_DIR$/src/components/users/users.controller.ts" />
+        <option value="$PROJECT_DIR$/src/components/posts/dto/find-many-posts.dto.ts" />
+        <option value="$PROJECT_DIR$/src/components/posts/posts.repository.ts" />
+        <option value="$PROJECT_DIR$/src/components/posts/posts.controller.ts" />
+        <option value="$PROJECT_DIR$/src/components/posts/posts.service.ts" />
+        <option value="$PROJECT_DIR$/src/components/posts/posts.module.ts" />
+        <option value="$PROJECT_DIR$/src/components/users/users.module.ts" />
       </list>
     </option>
   </component>
@@ -225,6 +233,13 @@
               <item name="cassandra-nest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cassandra-nest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cassandra-nest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="posts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cassandra-nest" type="b2602c69:ProjectViewProjectNode" />
@@ -292,21 +307,21 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32974000" />
+    <option name="totallyTimeSpent" value="35420000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <frame x="-1" y="-11" width="1922" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32948583" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.56289977" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.547744" />
       <window_info anchor="bottom" id="TypeScript" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25538972" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.255603" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -430,9 +445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
           <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -483,26 +495,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/posts/posts.repository.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/posts/posts.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.env">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -517,13 +509,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/users/tests/mocks.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/users/tests/mocks.ts" />
     <entry file="file://$PROJECT_DIR$/node_modules/@iaminfinity/express-cassandra/dist/orm/utils/model.utils.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
@@ -531,43 +517,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/users/tests/users.service.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/users/tests/users.repository.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/users/users.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/users/users.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="24" column="53" lean-forward="true" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/users/tests/users.service.spec.ts" />
+    <entry file="file://$PROJECT_DIR$/src/components/users/tests/users.repository.spec.ts" />
     <entry file="file://$PROJECT_DIR$/src/components/users/user.entity.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
@@ -585,50 +536,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/core/base.repository.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/posts/posts.controller.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="618">
-          <caret line="50" selection-start-line="50" selection-end-line="52" selection-end-column="101" />
-          <folding>
-            <element signature="e#0#88#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/posts/posts.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="34" column="50" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/posts/post.entity.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="31" column="56" lean-forward="true" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#68#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/core/base.entity.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="9" selection-start-line="9" selection-end-line="13" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#103#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -636,19 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/posts/dto/find-many-posts.dto.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -656,9 +554,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -666,9 +561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -684,15 +576,99 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/users/dto/update-user.dto.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="37" selection-start-column="37" selection-end-column="37" />
+        <state relative-caret-position="392">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/users/users.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="45" column="39" lean-forward="true" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/posts/dto/find-many-posts.dto.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/users/users.controller.ts">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="63" selection-start-line="63" selection-end-line="63" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/posts/post.entity.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-140">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/posts/posts.repository.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/core/base.repository.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/posts/posts.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="27" column="47" lean-forward="true" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/posts/posts.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/posts/posts.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/users/users.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,4 +1,18 @@
-import {Body, ClassSerializerInterceptor, Controller, Delete, Get, HttpStatus, Param, Post, Put, Query, UseInterceptors, Patch} from '@nestjs/common';
+import {
+    Body,
+    ClassSerializerInterceptor,
+    Controller,
+    Delete,
+    Get,
+    HttpStatus,
+    Param,
+    Post,
+    Put,
+    Query,
+    UseInterceptors,
+    Patch,
+    HttpCode
+} from '@nestjs/common';
 import {CreateUserDto} from './dto/create-user.dto';
 import {User} from './user.entity';
 import {UsersService} from './users.service';
@@ -47,8 +61,9 @@ export class UsersController {
     }
 
     @Delete(':id')
+    @HttpCode(HttpStatus.ACCEPTED)
     @ApiOperation({ title: 'Delete user by id' })
-    @ApiResponse({ status: HttpStatus.OK, description: 'User is deleted' })
+    @ApiResponse({ status: HttpStatus.ACCEPTED, description: 'User is deleted' })
     @ApiResponse({ status: HttpStatus.NOT_FOUND, description: 'User with provided id is not found' })
     removeById(@Param('id') id: string): Promise<void> {
         return this.usersService.removeById(id);

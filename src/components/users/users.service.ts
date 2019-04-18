@@ -42,6 +42,7 @@ export class UsersService {
             throw new NotFoundException('User with provided id is not found');
         }
 
+
         return this.usersRepository.updateById(id, dto);
     }
 

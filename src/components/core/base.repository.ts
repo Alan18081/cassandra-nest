@@ -23,12 +23,12 @@ export class BaseRepository<T> extends Repository<T> {
     }
 
     async updateById(id: string, dto: Partial<T>): Promise<T | undefined> {
-        await this.update({ id }, dto).toPromise();
+        await this.update({ id: uuid(id) }, dto).toPromise();
         return this.findById(id);
     }
 
     async removeById(id: string): Promise<void> {
-        await this.delete({ id }).toPromise();
+        await this.delete({ id: uuid(id) }).toPromise();
     }
 
 }
